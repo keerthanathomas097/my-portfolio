@@ -1,0 +1,94 @@
+.card {
+  width: 300px;
+}
+.card-image {
+  height: 250px;
+}
+.intro-img {
+  height: 200px;
+  width: 175px;
+  border-radius: 75px;
+}
+.heading {
+  text-align: center;
+}
+.intro-content {
+  text-align: left;
+}
+.intro {
+  border-radius: 15px;
+  padding: 20px;
+  border: solid #b97318;
+  margin:25px;
+}
+.intro-content {
+  margin-left: 15;
+  padding:10px;
+}
+.intro-content-text {
+  margin-top: 40px;
+  font-size: 25px;
+}
+.intro-content-heading {
+  margin: 0px;
+  margin-top: 20px;
+  color: rgb(119, 78, 9);
+}
+.card-title {
+  text-align: center;
+}
+.card-text {
+  text-align: left;
+}
+.card-footer {
+  background-color: rgb(233, 127, 47);
+}
+.heading {
+  color: rgb(151, 100, 12);
+  padding: 0px;
+  padding-bottom: 20px;
+}
+@media (max-width: 576px) {
+  .card {
+    margin: 20px auto;
+  }
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.navbar {
+  background-color: rgb(197, 122, 18);
+}
+.navbar a {
+  color: white;
+}
+.custom-navbar {
+  background-color: #b97318;
+  color: white;
+}
+.form-container {
+  justify-content: center;
+}
+.c-item {
+  height: 480px;
+}
+.c-image {
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.6);
+}
+.contact-form
+{
+  background-color: #f1ddc4;
+  padding:20px 30px;
+  border: solid #b97318;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+.port-foot
+{
+  color: #b97318;
+  
+}
